@@ -30,6 +30,7 @@ func main() {
 		fmt.Println(num, "has multiple digits")
 	}
 }
+// Note that you don’t need parentheses around conditions in Go, but that the braces are required.
 
 // Note : ternary operator is not available in Go. The if statement can be used to achieve similar functionality.
 // The if statement can be used to achieve similar functionality.
