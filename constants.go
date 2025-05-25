@@ -1,3 +1,5 @@
+// Go supports constants of character, string, boolean, and numeric values.
+
 package main
 
 import (
@@ -9,7 +11,7 @@ const s string = "constant"
 func main() {
 	fmt.Println(s)
 
-	const n = 500000000
+	const n = 500000000 //500.000.000
 	
 	const d = 3e20 / n
 	fmt.Println(d)
