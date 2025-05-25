@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	var s []string
+	var s []string // ini akan nil atau undefined karena belum ada inisialisasi karena baru deklarasi. 
 	fmt.Println("uninitialized:", s, s == nil, len(s) == 0, cap(s) == 0)
 
 	s = make([]string, 3)// make is a built-in function that allocates and initializes slices, maps, and channels.
