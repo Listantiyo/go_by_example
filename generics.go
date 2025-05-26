@@ -66,3 +66,15 @@ func main() {
 	lst.Push(23)
 	fmt.Println("list:", lst.AllElements())
 }
+
+// What : Generic
+// Why : Membuat kode lebih reusable
+// How : Menggunakan type parameter
+// Note:
+// 1. Generic function
+// 2. Generic type
+// 3. Generic method
+// 4. Generic constraint
+// 5. Generic interface
+// 6. Generic type parameter
+// 7. Generic type set
