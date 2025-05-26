@@ -1,3 +1,5 @@
+// Go supports pointers, allowing you to pass references to values and records within your program.
+
 package main
 
 import "fmt"
@@ -20,3 +22,11 @@ func main() {
 
 	fmt.Println("pointer:", &i) // prints the address of i
 }
+
+// What is a pointer?
+// A pointer is a variable that stores the memory address of another variable.
+// The & operator returns the memory address of a variable.
+// The * operator returns the value stored at a memory address.
+
+// The * operator is called the dereference operator or the indirection operator.
+// The & operator is called the address operator.
