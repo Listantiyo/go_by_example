@@ -42,3 +42,7 @@ func main() {
 	fmt.Println("describer:", d.describe()) // call the describe() method from the interface
 }
 
+// What : embedding struct adalah sebuah fitur dalam bahasa pemrograman Go yang memungkinkan sebuah struct
+// untuk mengandung atau menempelkan (embed) field atau method dari struct lain.
+
+// Why : embedding struct digunakan untuk mengimplementasikan konsep pewarisan (inheritance) dalam bahasa pemrograman Go.
