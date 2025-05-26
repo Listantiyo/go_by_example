@@ -1,3 +1,5 @@
+// A Go string is a read-only slice of bytes. The language and the standard library treat strings specially - as containers of text encoded in UTF-8. In other languages, strings are made of “characters”. In Go, the concept of a character is called a rune - it’s an integer that represents a Unicode code point.
+
 package main
 
 import (
@@ -43,3 +45,7 @@ func examineRune(r rune) {
 		fmt.Println("Found so sua")
 	}
 }
+
+// What is a string anf rune?
+// A string is a sequence of characters represented by a sequence of bytes
+// A rune is a single character in a string
