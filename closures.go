@@ -1,3 +1,5 @@
+// Go supports anonymous functions, which can form closures. Anonymous functions are useful when you want to define a function inline without having to name it.
+
 package main
 
 import (
@@ -23,6 +25,11 @@ func main() {
 	newInts := intSeq() // Membuat fungsi baru dengan state baru
 	fmt.Println(newInts()) // 1
 }
+
+// What : 
+// - Closure adalah sebuah fungsi yang dapat mengakses variabel di lingkup yang lebih luar dari fungsi tersebut.
+// - Closure memungkinkan kita untuk membuat fungsi-fungsi yang memiliki state pribadi.
+// - Closure juga memungkinkan kita untuk membuat fungsi-fungsi yang dapat dijadikan sebagai argumen atau nilai kembalian dari fungsi lainnya.
 
 // Note : Closure merupakan fungsi di dalam fungsi lain yang dapat mengakses variabel di dalam fungsi luar
 // Closure juga dapat mengakses variabel di dalam fungsi luar meskipun fungsi luar sudah selesai die
