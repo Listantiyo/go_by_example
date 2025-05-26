@@ -1,3 +1,5 @@
+// Interfaces are named collections of method signatures.
+
 package main
 
 import (
@@ -14,7 +16,7 @@ type rect struct { // struct to define rectangle
 	width, height float64
 }
 
-type circle struct {
+type circle struct { // struct to define circle
 	radius float64
 }
 
@@ -56,3 +58,16 @@ func main() {
 	detecCircle(r)
 	detecCircle(c)
 }
+
+
+// Tujuan Interfaces adalah untuk membuat kode lebih modular dan reusable.
+// Interfaces juga dapat digunakan untuk membuat kode yang lebih mudah dipelihara dan diperbarui.
+
+// Untuk mengimplementasikan interfaces, kita harus membuat struct yang memiliki method yang sama dengan interface yang kita buat.
+// Kemudian kita bisa membuat objek dari struct tersebut dan menggunakannya sebagai parameter untuk function yang menerima interface sebagai parameter.
+
+// Tidak seperti bahasa perograman lain yang menerapkan interface langsung pada struct, di Go interface hanya mendefinisikan method yang harus diimplementasikan oleh struct.
+// Artinya, struct bisa mengimplementasikan lebih dari satu interface, asalkan struct memiliki method yang sama dengan interface yang diimplementasikan.
+
+// Interface juga bisa digunakan untuk membuat function yang menerima parameter dengan tipe data yang berbeda-beda.
+// Hal ini bisa dilakukan dengan membuat function yang menerima parameter dengan tipe data interface.
