@@ -1,3 +1,5 @@
+// Enumerated types (enums) are a special case of sum types. An enum is a type that has a fixed number of possible values, each with a distinct name. Go doesn’t have an enum type as a distinct language feature, but enums are simple to implement using existing language idioms.
+
 package main
 
 import "fmt"
@@ -51,3 +53,16 @@ func transition(s ServerState) ServerState {
 			panic(fmt.Errorf("unknow state %s", s))
 	}
 }
+
+// Enum is a type that has a fixed number of possible values, each with a distinct name.
+// Use cases:
+// - When you have a fixed set of values that you want to represent
+// - When you want to limit the set of values that can be assigned to a variable
+// - When you want to group related constants together
+// - When you want to use a type-safe way to represent a set of values
+
+// Example used in case like :
+// - ServerState
+// - Direction
+// - StatusCode
+// - ...
