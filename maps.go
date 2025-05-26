@@ -1,3 +1,5 @@
+// Maps are Go’s built-in associative data type (sometimes called hashes or dicts in other languages).
+
 package main
 
 import (
@@ -40,3 +42,5 @@ func main() {
 		fmt.Println("n == n2")
 	}
 }
+
+// Map in go is like a object in javascript with key value pairs
