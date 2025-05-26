@@ -1,3 +1,5 @@
+// Go supports methods defined on struct types.
+
 package main
 
 import "fmt"
@@ -31,3 +33,8 @@ func main() {
 	fmt.Println("area:", rp.area()) // pointer receiver
 	fmt.Println("perim:", rp.perim()) // value receiver
 }
+
+// What : In go we can define methods on struct types.
+// How : Methods are just functions with a receiver argument.
+// To become a method, the receiver argument has to be defined on either a value or a pointer type.
+// Note : The receiver argument is defined before the function name.
