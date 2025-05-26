@@ -24,6 +24,8 @@ func main() {
 	fmt.Println(fib(7))
 }
 
+// What is recursion?
+// Recursion is a function that calls itself. It is used to solve problems that can be broken down into smaller subproblems. The base case is the condition under which the recursion stops. In the factorial example, the base case is when n is 0. In the Fibonacci example, the base case is when n is less than 2.
 
 // Note : recursion is a function that calls itself. It is used to solve problems that can be broken down into smaller subproblems. The base case is the condition under which the recursion stops. In the factorial example, the base case is when n is 0. In the Fibonacci example, the base case is when n is less than 2.
 
