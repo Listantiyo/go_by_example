@@ -73,3 +73,11 @@ func main() {
 
 // Range over iterators artinya anda dapat menggunakan range untuk iterasi pada iterator
 // iterator adalah objek yang memiliki method next() yang mengembalikan nilai dan boolean
+// interator bukanlah data, melainkan alat untuk mengiterasi suatu data dengan suatu kerangka iterasi yang telah ditentukan.
+// ciri iterator adalah memiliki method next() yang mengembalikan nilai dan boolean
+// next() adalah method yang digunakan untuk mengiterasi data
+// next() mengembalikan nilai dan boolean
+// nilai adalah data yang akan diiterasi
+// boolean adalah kondisi yang digunakan untuk menghentikan iterasi
+// jika boolean bernilai true maka iterasi akan dihentikan
+// jika boolean bernilai false maka iterasi akan dilanjutkan
